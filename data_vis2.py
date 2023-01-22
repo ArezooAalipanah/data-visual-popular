@@ -10,6 +10,7 @@ MIN_LONGITUDE = -180
 MAX_LONGITUDE = 180
 MIN_LATITUDE = -90
 MAX_LATITUDE = 90
+" the main difference between data_vis and data_vis 2 is the usage of csv library."
 def main():
     visualization = SimpleImage.blank(VISUALIZATION_WIDTH, VISUALIZATION_HEIGHT)
     with open("cities.csv") as file:
